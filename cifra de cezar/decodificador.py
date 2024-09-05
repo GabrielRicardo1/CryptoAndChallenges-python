@@ -1,6 +1,8 @@
 print('o decodificador é muito simples. funciona desta forma: ')
-print('basicamente coordenadas simples. como exemplo, temos a palavra "prateleira" e quero usar a letra T dessa palavra. para isso a coordenada seria a seguinte:')
-print('{{primeiro numero -> coluna | segundo -> linha} terceiro -> posição da letra t na palavra} resultado -> {{1,1} 4} você precisa dar esse espaço na coordenada que diz respeito a posição da letra.')
+print('Para decifrar, você utiliza coordenadas que indicam a posição da letra na matriz de palavras. Por exemplo, se quisermos codificar a letra "T" da palavra "prateleira", a coordenada seria formatada assim:')
+print('Coordenada: {{coluna, linha} posição_da_letra}')
+print('Portanto, para a letra "T" na palavra "prateleira", a coordenada seria {{1,1} 4}, onde {1,1} representa a posição da palavra na matriz e 4 é a posição da letra "T" dentro da palavra.')
+print('Lembre-se de incluir um espaço entre as coordenadas e a posição da letra para garantir que o decodificador funcione corretamente.')
 
 lista_palavras = [
     ["Computador", "Biblioteca", "Relógio", "Telefone", "Escrivaninha"],
