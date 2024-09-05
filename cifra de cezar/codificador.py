@@ -1,4 +1,10 @@
-# o codificador é muito mais simples de usar, aliás acho que nem tem muito o que te explicar aqui. comece vendo o código pelo decodificador mesmo!
+# Sugiro que você primeiro veja o decodificador para compreender melhor o processo. O codificador é bem simples de usar.
+# Este código transforma uma mensagem em coordenadas baseadas em uma matriz de palavras.
+# Primeiro, ele exibe a matriz com as palavras e suas posições.
+# Quando você digita uma mensagem, o código encontra cada letra na matriz, pega sua posição e gera coordenadas no formato {{linha,coluna} posição_da_letra}.
+# Essas coordenadas são então exibidas para você.
+# Isso permite codificar a mensagem de forma que você possa decifrá-la depois usando a mesma matriz.
+
 lista_palavras = [
     ["Computador", "Biblioteca", "Relógio", "Telefone", "Escrivaninha"],
     ["Cadeira", "Janela", "Quadro", "Geladeira", "Mochila"]
