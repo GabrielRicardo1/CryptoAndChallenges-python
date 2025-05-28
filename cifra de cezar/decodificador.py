@@ -1,4 +1,4 @@
-print('o decodificador é muito simples. funciona desta forma: ')
+print('o decodificador de cifra por coordenadas matriciais é muito simples. funciona desta forma: ')
 print('Para decifrar, você utiliza coordenadas que indicam a posição da letra na matriz de palavras. Por exemplo, se quisermos codificar a letra "T" da palavra "prateleira", a coordenada seria formatada assim:')
 print('Coordenada: {{coluna, linha} posição_da_letra}')
 print('Portanto, para a letra "T" na palavra "prateleira", a coordenada seria {{1,1} 4}, onde {1,1} representa a posição da palavra na matriz e 4 é a posição da letra "T" dentro da palavra.')
